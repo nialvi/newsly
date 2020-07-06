@@ -37,3 +37,15 @@ create data in db with prisma-client
 ```bash
 npx ts-node prisma/seeds.ts
 ```
+
+generate type of graphql schema
+
+```bash
+npm run generate
+```
+
+run graphql server
+
+```bash
+npm run dev-server
+```
