@@ -8,7 +8,7 @@ import * as User from "./User";
 
 export default makeSchema({
   types: [Query, Post, User, Comment],
-  plugins: [nexusSchemaPrisma()],
+  plugins: [nexusSchemaPrisma({ experimentalCRUD: true })],
   outputs: {
     typegen: path.join(
       __dirname,

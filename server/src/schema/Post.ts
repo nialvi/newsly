@@ -6,8 +6,8 @@ export const Post = objectType({
     t.model.id();
     t.model.title();
     t.model.text();
-    // t.model.createdAt();
-    // t.model.author();
-    // t.model.comments();
+    t.model.createdAt();
+    t.model.author();
+    t.model.comments();
   },
 });
