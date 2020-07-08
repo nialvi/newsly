@@ -7,5 +7,9 @@
 .DS_Store
 .env*
 
+# next.js
+/.next/
+/out/
+
 # debug
 npm-debug.log*

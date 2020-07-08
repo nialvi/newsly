@@ -49,3 +49,9 @@ run graphql server
 ```bash
 npm run dev-server
 ```
+
+run dev mode client
+
+```bash
+npm run dev-client
+```
