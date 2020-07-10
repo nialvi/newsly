@@ -3,9 +3,7 @@
     "sourceMap": true,
     "outDir": "dist",
     "strict": true,
-    "lib": [
-      "esnext"
-    ],
+    "lib": ["esnext", "DOM"],
     "esModuleInterop": true,
     "target": "es5",
     "allowJs": true,
@@ -18,12 +16,6 @@
     "isolatedModules": true,
     "jsx": "preserve"
   },
-  "exclude": [
-    "node_modules"
-  ],
-  "include": [
-    "next-env.d.ts",
-    "**/*.ts",
-    "**/*.tsx"
-  ]
+  "exclude": ["node_modules"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"]
 }

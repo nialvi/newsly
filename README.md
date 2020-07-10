@@ -55,3 +55,7 @@ run dev mode client
 ```bash
 npm run dev-client
 ```
+
+## TODO
+
+Need to understand why it needed install 'apollo-client'
